@@ -1,0 +1,45 @@
+// Thanaweya Amma Configuration
+// Generated from top_200_exam_universe_seed.csv
+
+export const EXAM_CONFIG = {
+  examId: "EXAM125",
+  slug: "thanaweya-amma",
+  name: "Thanaweya Amma",
+  fullName: "Thanaweya Amma",
+  alias: "Thanaweya Amma",
+  family: "Egypt Secondary",
+  category: "School exams",
+  subcategory: "University entrance",
+  country: "Egypt",
+  region: "MENA",
+  languages: ["Arabic"],
+  estimatedAnnualTakers: "very high",
+  testingWindow: "Jun-Jul",
+  schedulePattern: "Annual",
+  ageGroup: "17-19",
+  targetUser: "School student",
+  delivery: "Paper/digital mixed",
+  questionTypes: ["Objective + essay"],
+  adaptivity: "Linear",
+  sections: "Subject streams",
+  scoringMode: "Score-based",
+  essayOrSpeaking: "Writing",
+  ipRisk: "Low",
+  contentReuse: "school_subjects_plus_admissions",
+  uiEngine: "paper_or_digital_mixed",
+  monetizationPotential: "High",
+  tier: "Tier 3",
+  launchWave: "Wave 5",
+  themeColor: "#D97706",
+  themeColorDark: "#B45309",
+  localizationComplexity: "High",
+  offlineNeeded: true,
+  mobileFirst: true,
+  locale: "ar",
+  isRTL: true,
+  freemiumGate: {
+    dailyQuestions: 10,
+  },
+} as const;
+
+export type ExamConfig = typeof EXAM_CONFIG;
